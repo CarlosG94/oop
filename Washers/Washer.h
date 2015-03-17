@@ -67,16 +67,18 @@ T Washer<T>::getWeight()
 template<class T>
 void Washer<T>::setBasePrice(T basePrice)
 {
-  if (weight > 0 && weight <= 19) this->price = 10000;
-  else if (weight >= 20 && weight <= 49) this->price = 50000;
-  else if (weight >= 50 && weight <= 79) this->price = 80000;
-  else if (weight >= 80) this->price = 100000;
+  if (weight > 0 && weight <= 19) this->basePrice = 10000;
+  else if (weight >= 20 && weight <= 49) this->basePrice = 50000;
+  else if (weight >= 50 && weight <= 79) this->basePrice = 80000;
+  else if (weight >= 80) this->basePrice = 100000;
+
+  cout << basePrice;
 }
 
 template<class T>
 T Washer<T>::getBasePrice()
 {
-  return this->price;
+  return this->basePrice;
 }
 
 template<class T>
@@ -124,21 +126,24 @@ void Washer<T>::setFinalPrice(T finalPrice)
 template<class T>
 T Washer<T>::getFinalPrice()
 {
-  if (this->price < 20000) 
+  if (this->basePrice < 20000) 
   {
     this->finalPrice = 10000;
     return this->finalPrice;
-  } else if (this->price >= 20000 && this->price <= 40000)
+  } else if (this->basePrice >= 20000 && this->basePrice <= 40000)
   {
-    this->finalPrice = this->price*1.3;
+    this->finalPrice = this->basePrice;
+    this->finalPrice *= 1.3;
     return this->finalPrice;
-  } else if (this->price >= 40000 && this->price < 80000)
+  } else if (this->basePrice >= 40000 && this->basePrice < 80000)
   {
-    this->finalPrice = this->price*1.4;
+    this->finalPrice = this->basePrice;
+    this->finalPrice *= 1.4;
     return this->finalPrice;
-  } else if (this->price >= 80000)
+  } else if (this->basePrice >= 80000)
   {
-    this->finalPrice = this->price*1.5;
+    this->finalPrice = this->basePrice;
+    this->finalPrice *= 1.5;
     return this->finalPrice;
   }
 }
