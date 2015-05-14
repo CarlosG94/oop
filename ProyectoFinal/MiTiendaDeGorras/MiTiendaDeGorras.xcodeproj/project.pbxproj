@@ -25,6 +25,18 @@
 /* Begin PBXFileReference section */
 		F35CE69E1AFBDE2F008B368F /* MiTiendaDeGorras */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MiTiendaDeGorras; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35CE6A11AFBDE2F008B368F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F35CE6A81AFF3B01008B368F /* Headwear.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Headwear.h; sourceTree = "<group>"; };
+		F35CE6A91AFF4208008B368F /* Caps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Caps.h; sourceTree = "<group>"; };
+		F35CE6AA1AFF426D008B368F /* Beanie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beanie.h; sourceTree = "<group>"; };
+		F35CE6AB1AFF42AF008B368F /* Hats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Hats.h; sourceTree = "<group>"; };
+		F35CE6AC1B014C15008B368F /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		F35CE6C91B01C904008B368F /* Formal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Formal.h; path = ../../../../../../CarlosGutierrez/Development/cpp/ProyectoFinal/MiTiendaDeGorras/MiTiendaDeGorras/Formal.h; sourceTree = "<group>"; };
+		F35CE6CA1B01C912008B368F /* Casual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Casual.h; path = ../../../../../../CarlosGutierrez/Development/cpp/ProyectoFinal/MiTiendaDeGorras/MiTiendaDeGorras/Casual.h; sourceTree = "<group>"; };
+		F35CE6CB1B01DBC8008B368F /* Berets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Berets.h; path = ../../../../../../CarlosGutierrez/Development/cpp/ProyectoFinal/MiTiendaDeGorras/MiTiendaDeGorras/Berets.h; sourceTree = "<group>"; };
+		F35CE6CC1B01DC1E008B368F /* Exotic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Exotic.h; path = ../../../../../../CarlosGutierrez/Development/cpp/ProyectoFinal/MiTiendaDeGorras/MiTiendaDeGorras/Exotic.h; sourceTree = "<group>"; };
+		F35CE6CD1B021380008B368F /* ShoppingCart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShoppingCart.h; path = ../../../../../../CarlosGutierrez/Development/cpp/ProyectoFinal/MiTiendaDeGorras/MiTiendaDeGorras/ShoppingCart.h; sourceTree = "<group>"; };
+		F35CE6CE1B02DB35008B368F /* Store.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Store.h; path = ../../../../../../CarlosGutierrez/Development/cpp/ProyectoFinal/MiTiendaDeGorras/MiTiendaDeGorras/Store.h; sourceTree = "<group>"; };
+		F35CE6CF1B02F578008B368F /* Empty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Empty.h; path = ../../../../../../CarlosGutierrez/Development/cpp/ProyectoFinal/MiTiendaDeGorras/MiTiendaDeGorras/Empty.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,18 @@
 			isa = PBXGroup;
 			children = (
 				F35CE6A11AFBDE2F008B368F /* main.cpp */,
+				F35CE6A81AFF3B01008B368F /* Headwear.h */,
+				F35CE6A91AFF4208008B368F /* Caps.h */,
+				F35CE6AA1AFF426D008B368F /* Beanie.h */,
+				F35CE6AB1AFF42AF008B368F /* Hats.h */,
+				F35CE6AC1B014C15008B368F /* List.h */,
+				F35CE6C91B01C904008B368F /* Formal.h */,
+				F35CE6CA1B01C912008B368F /* Casual.h */,
+				F35CE6CB1B01DBC8008B368F /* Berets.h */,
+				F35CE6CC1B01DC1E008B368F /* Exotic.h */,
+				F35CE6CD1B021380008B368F /* ShoppingCart.h */,
+				F35CE6CE1B02DB35008B368F /* Store.h */,
+				F35CE6CF1B02F578008B368F /* Empty.h */,
 			);
 			path = MiTiendaDeGorras;
 			sourceTree = "<group>";
@@ -232,6 +256,7 @@
 				F35CE6A71AFBDE2F008B368F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
